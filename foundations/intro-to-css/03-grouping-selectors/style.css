@@ -3,11 +3,11 @@
     font-family: "Helvetica", "Times New Roman", sans-serif;
 }
 
-.first {
+.button.first {
     background-color: rgba(5, 5, 5, 0.925);
     color: rgb(236, 234, 234);
 }
 
-.second {
+.button.second {
     background-color: rgba(241, 241, 22, 0.904);
 }
