@@ -13,14 +13,21 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 8px;
 }
 
 .header .left-side {
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .header .right-side {
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 .profile-image {
   background: rebeccapurple;
@@ -55,4 +62,6 @@ ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  display: flex;
+  gap: 16px;
 }
