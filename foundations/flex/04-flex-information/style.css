@@ -16,12 +16,21 @@ img {
 .container {
   display: flex;
   justify-content: center;
+  gap: 50px;
   margin: 32px;
 }
 
 .text {
   width: 200px;
   flex-basis: auto;
+  text-align: center;
+}
+
+.media-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 /* do not edit this footer */
